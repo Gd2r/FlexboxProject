@@ -103,7 +103,57 @@ ul {
 
   /* third section */
 
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    padding: 40px;
+  }
 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 102px;
+    text-align: center;
+    padding-bottom: 80px;
+  }
   
+  .info img{
+    max-width: 250px;
+  }
   
-  
+  .info{
+    font-size: 18px;
+    text-align: justify;
+    max-width: 200px;
+    flex-shrink: 1;
+  }
+
+  /* Four Section */
+
+  .Quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: justify;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+
+  /* Footer */
+
+  .footer {
+    position: static;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #1f2937;
+    color: #f9faf8;
+  }
